@@ -1,0 +1,74 @@
+:root {
+    --font-weight-default: 400;
+    --font-weight-bold: 700;
+    --font-weight-heavy: 900;
+    --line-height-default: 1.25;
+    --line-height-tall: 1.45;
+    --spacing-25: 4px;
+    --spacing-50: 8px;
+    --spacing-75: 12px;
+    --spacing-100: 16px;
+    --spacing-125: 20px;
+    --spacing-150: 24px;
+    --spacing-200: 32px;
+    --spacing-250: 40px;
+    --spacing-300: 48px;
+    --spacing-400: 64px;
+    --spacing-600: 96px;
+    --spacing-800: 128px;
+    accent-color: #E10500;
+}
+.smallcontent p i {color: #ffffff;}
+.services-list-desc {margin: auto;}
+.services-list-desc img {height: 200px;object-fit: contain;}
+.logo-slider-box {width: 200px;background: #fff;padding: 30px;}
+.single-testimonials img {
+    max-width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 8px;
+}
+.yearly-stats {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border: 1px solid #494949;
+    border-radius: 8px;
+}
+.stats-listed {grid-template-columns: repeat(13, 1fr);}
+.statsrushing {grid-template-columns: repeat(8, 1fr);}
+.statsofpb {grid-template-columns: repeat(4, 1fr);}
+.yearly-stats .stat {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: var(--spacing-25);
+    flex-direction: column;
+    padding: var(--spacing-75) 0;
+    border-right: 1px solid #494949;
+}
+.yearly-stats .stat:nth-last-child(2) {
+    border-right: none;
+}
+.yearly-stats .stat.bdrrgt {
+    border: none;
+}
+.yearly-stats .stat .name {
+    font-size: 12px;
+    line-height: var(--line-height-tall);
+    font-weight: var(--font-weight-default);
+    color: rgba(255, 255, 255, 0.75);
+}
+.yearly-stats .stat .value {
+    font-size: 14px;
+    line-height: var(--line-height-tall);
+    font-weight: var(--font-weight-bold);
+    color: rgb(255, 255, 255);
+}
+
+.twitter-tweet {transform: scale(0.9); margin-top: 0px !important;}
+.pp-viewing-TWITTER-TWEET header {display: none;}
+.feed-section.active {padding: 0 !important;}
+.statslists h4 p {color: #ffffff;font-size: 14px;font-weight: 500;}
